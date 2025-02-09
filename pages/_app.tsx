@@ -38,6 +38,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="/favicons/manifest.json" />
 
         <title>Privy Auth Starter</title>
+        <meta content="yes" name="full-screen" />
+        <meta content="application" name="browsermode" />
         <meta name="description" content="Privy Auth Starter" />
       </Head>
       <PrivyProvider
