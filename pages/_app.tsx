@@ -37,7 +37,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
         <link rel="manifest" href="/favicons/manifest.json" />
 
-        <title>Privy Auth Starter</title>
+        <title>Privy Auth Starter Demo</title>
+        <meta content="application" name="browsermode" />
+        <meta content="yes" name="full-screen" />
         <meta content="yes" name="full-screen" />
         <meta content="application" name="browsermode" />
         <meta name="mobile-web-app-capable" content="yes" />
