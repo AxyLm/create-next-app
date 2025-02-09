@@ -40,6 +40,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Privy Auth Starter</title>
         <meta content="yes" name="full-screen" />
         <meta content="application" name="browsermode" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="dappOS" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="description" content="Privy Auth Starter" />
       </Head>
       <PrivyProvider
